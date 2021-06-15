@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <SignAssembly>false</SignAssembly>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <EnableNETAnalyzers>false</EnableNETAnalyzers>
+    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\Projects\Aottg.Bot.Lib\Aottg.Bot.Lib\AottgBotLib.xml</DocumentationFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>D:\Projects\AottgBotLib\Aottg.Bot.Lib\AottgBotLib.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Photon-NetStandard">
+      <HintPath>..\Dependencies\Photon-NetStandard.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonRealtime-NetStandard">
+      <HintPath>..\Dependencies\PhotonRealtime-NetStandard.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AottgBotLib", "Aottg.Bot.Lib\AottgBotLib.csproj", "{4F90B9A2-E4E8-4976-8018-529938345CCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AottgBotLib.Example", "Aottg.Bot.Example\AottgBotLib.Example.csproj", "{B8B36D15-C2AF-4D22-BCB3-77FAB19E58B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F90B9A2-E4E8-4976-8018-529938345CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F90B9A2-E4E8-4976-8018-529938345CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F90B9A2-E4E8-4976-8018-529938345CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F90B9A2-E4E8-4976-8018-529938345CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B36D15-C2AF-4D22-BCB3-77FAB19E58B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B36D15-C2AF-4D22-BCB3-77FAB19E58B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B36D15-C2AF-4D22-BCB3-77FAB19E58B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B36D15-C2AF-4D22-BCB3-77FAB19E58B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95D0A3B7-020C-4547-900E-384FAADCF403}
+	EndGlobalSection
+EndGlobal
