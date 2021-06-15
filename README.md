@@ -3,7 +3,7 @@ Simple tiny library to ease creating "bots" for indie game AoTTG by Feng Lee<br>
 <br>
 Basically, this library is just a layer built on Photon Network C# libraries to simlify interations for specified game.
 
-# Usage
+# Usage example
 ```cs
 using System;
 using AottgBotLib;
