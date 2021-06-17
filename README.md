@@ -27,15 +27,21 @@ class Program
         };
 
         await client.ConnectToMasterAsync(); //Connecting to region
-
+        
+        RoomInfo roomToGetInto = null;
         foreach (RoomInfo room in client.RoomList)
         {
             if (room.Name.Contains("roomNameYouWantToJoin"))
             {
-                await client.JoinRoomAsync(room);
+                roomToGetInto = room;
                 break;
             }
         }
+        if(roomToGetInto == null)
+        {
+            Environment.Exit(0);
+        }
+        await client.JoinRoomAsync(roomToGetInto);
         //Voila. You have connected to room you want and now can read what happens there
         
         //Leaving this here to keep console open
